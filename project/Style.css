@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+#floorPlanCanvas {
+  border: 1px solid #000;
+  background-color: white;
+  position: relative;
+  cursor: grab;
+}
+#box {
+  position: absolute;
+  background-color: #333;
+  color: white;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 12px;
+  display: none;
+  pointer-events: none;
+}
+#buttonContainer {
+  display: flex;
+  margin-top: 10px;
+  gap: 10px;
+}
+.nav-button {
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.nav-button:hover {
+  background-color: #0056b3;
+}
+.nav-button:active {
+  background-color: #003d7a;
+}
